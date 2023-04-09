@@ -1,4 +1,4 @@
-rom transformers import pipeline, set_seed
+from transformers import pipeline, set_seed
 from fastapi import FastAPI
 from pydantic import BaseModel
 
